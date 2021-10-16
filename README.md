@@ -8,3 +8,34 @@ I used ansible for instances configuration and terraform for build the infrastru
 </p>
 
 
+3. Clone repository and move to code folder.
+```bash
+git clone https://github.com/matanelg/Semi-Supervised-Classification.git
+cd ./code
+```
+
+## Quick Start
+
+## 01. Export your aws access key & secret key (Make sure the user have premission to creating resources).
+```bash
+export AWS_ACCESS_KEY=""
+export AWS_SECRET_KEY=""
+```
+
+## 02. Create two ssh key-pair with the names public-instance & private-instance .
+```bash
+ssh-keygen
+ssh-keygen
+cd ./code
+```
+
+### 03. Clone repository and run terraform as follow (Make sure you have terraform install).
+```bash
+git clone https://github.com/matanelg/AWS-Load-Balancer.git
+cd AWS-Load-Balancer
+terraform apply -auto-approve
+```
+
+
+
+
