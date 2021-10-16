@@ -17,7 +17,7 @@ export AWS_ACCESS_KEY=""
 export AWS_SECRET_KEY=""
 ```
 
-### 02. Create two ssh key-pair with the names public-instance & private-instance .
+### 02. Create two ssh key-pair with the names public-instance & private-instance
 ```bash
 ssh-keygen
 ssh-keygen
@@ -31,6 +31,7 @@ cd AWS-Load-Balancer
 terraform apply -auto-approve
 ```
 
-
+## Demo
+https://user-images.githubusercontent.com/64362937/137604710-ba174d43-2075-44cd-b807-3448c58d11a7.mp4
 
 
