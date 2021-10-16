@@ -10,7 +10,8 @@ I used ansible for instances configuration and terraform for build the infrastru
 
 ## Quick Start
 
-### 01. Export your aws access key & secret key (Make sure the user have premission to creating resources).
+### 01. Export your aws access key & secret key 
+(Make sure the user have premission to creating resources).
 ```bash
 export AWS_ACCESS_KEY=""
 export AWS_SECRET_KEY=""
@@ -20,10 +21,10 @@ export AWS_SECRET_KEY=""
 ```bash
 ssh-keygen
 ssh-keygen
-cd ./code
 ```
 
-### 03. Clone repository and run terraform as follow (Make sure you have terraform install).
+### 03. Clone repository and run terraform as follow 
+(Make sure you have terraform install).
 ```bash
 git clone https://github.com/matanelg/AWS-Load-Balancer.git
 cd AWS-Load-Balancer
