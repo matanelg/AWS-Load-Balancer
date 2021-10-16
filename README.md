@@ -10,13 +10,13 @@ I used ansible for instances configuration and terraform for build the infrastru
 
 ## Quick Start
 
-## 01. Export your aws access key & secret key (Make sure the user have premission to creating resources).
+### 01. Export your aws access key & secret key (Make sure the user have premission to creating resources).
 ```bash
 export AWS_ACCESS_KEY=""
 export AWS_SECRET_KEY=""
 ```
 
-## 02. Create two ssh key-pair with the names public-instance & private-instance .
+### 02. Create two ssh key-pair with the names public-instance & private-instance .
 ```bash
 ssh-keygen
 ssh-keygen
