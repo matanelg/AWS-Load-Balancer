@@ -10,10 +10,7 @@ I used ansible for instances configuration and terraform for build the infrastru
 
 ## Application
 
-The application build with docker-compose for scalability purpose as we create two replicas of container app's.<br />
-One container run flask (python) as a web server and return to the client the instance hostname & container id.<br />
-On the second container run nginx as reverse proxy and move traffic to flask from host.<br />
-Combine together the apps replicas and nginx as a reverse proxy and we get internal load balancer.<br />
+The application build with docker-compose for scalability purpose as we create two replicas of container app's. One container run flask (python) as a web server and return to the client the instance hostname & container id. On the second container run nginx as reverse proxy and move traffic to flask from host. Combine together the apps replicas and nginx as a reverse proxy and we get internal load balancer as we see later on demo.<br />
 
 
 ## Quick Start
