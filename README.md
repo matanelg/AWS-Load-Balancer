@@ -25,14 +25,15 @@ export AWS_SECRET_KEY=""
 ### 02. Create two ssh key-pair with the names public-instance & private-instance
 ```bash
 ssh-keygen
-ssh-keygen
 ```
 
 ### 03. Clone repository and run terraform as follow 
 (Make sure you have terraform install).
 ```bash
 git clone https://github.com/matanelg/AWS-Load-Balancer.git
-cd AWS-Load-Balancer
+cd AWS-Load-Balancer/terraform
+terraform init
+rettafom plan
 terraform apply -auto-approve
 ```
 
